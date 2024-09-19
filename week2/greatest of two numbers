@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()   
+{
+   int a,b;
+   printf("value of a:");
+   scanf("%d",&a);
+   printf("value of b:");
+   scanf("%d",&b);
+   a>b?printf("a is big"):printf(" b is big ");
+   }
