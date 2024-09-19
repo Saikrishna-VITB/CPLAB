@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+   float s,d,t;
+   printf("Enter the value of speed,time:");
+   scanf("%f%f",&s,&t);
+   d=s*t;
+   printf("Distance=%f",d);
+   }
